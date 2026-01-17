@@ -16,11 +16,10 @@ This project is fully developed, deployed, and suitable for **portfolio, resume,
 
 ## 📸 Application Preview
 
-Add screenshots in a `screenshots/` folder and reference them below.
-
-![Login Page](screenshots/login.png)  
-![Chat Interface](screenshots/chat.png)  
-![User Discovery](screenshots/users.png)
+![Login Page](screenshots/Login.png)  
+![SignUp](screenshots/Signup.png)  
+![User Discovery](screenshots/Dashboard.png)
+![Chat Interface](screenshots/Chatpage.png)
 
 ---
 
@@ -31,7 +30,7 @@ Chatzan allows users to:
 - Register and log in securely  
 - Discover recommended users  
 - Send and manage friend requests  
-- Chat in real time with connected users  
+- Chat And Video call in real time with connected users  
 - Experience a responsive and modern UI  
 
 Instead of implementing raw WebSockets, this application integrates **Stream Chat**, a production-grade real-time messaging platform used by large-scale applications.
@@ -108,7 +107,7 @@ Copy code
 Create a `.env` file inside the **backend** directory:
 
 ```env
-PORT=5000
+PORT=5001
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
@@ -130,7 +129,7 @@ cd backend
 npm install
 npm run dev
 Backend runs on:
-http://localhost:5000
+http://localhost:5001
 
 3️⃣ Frontend Setup
 bash
